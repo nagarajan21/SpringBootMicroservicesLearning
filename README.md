@@ -2,7 +2,7 @@
 Spring Boot Microservices Learning
 # FSD Backend
 
-A Spring Boot microservice project for managing user oms. This backend service demonstrates RESTful API design, exception handling, and repository integration using Spring Data JPA.
+A Spring Boot microservice project for managing order management system. This backend service demonstrates RESTful API design, exception handling, and repository integration using Spring Data JPA.
 
 ---
 
@@ -46,14 +46,10 @@ The service will start at:
 http://localhost:8080
 🔗 API Endpoints (for examples)
 GET /oms → Fetch all user oms
-
 GET /oms/{id} → Fetch order by ID
 GET /oms/all → Fetch all orders
-
 POST /oms → Create a new order
-
 PUT /oms/{id} → Update an existing order
-
 DELETE /oms/{id} → Delete an order
 
 
