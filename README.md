@@ -19,24 +19,8 @@ A Spring Boot microservice project for managing user oms. This backend service d
 - **Java 17+**
 - **Spring Boot** (Web, Data JPA)
 - **Gradle**
-- **H2 / MySQL** (depending on configuration)
+- **MySQL** (depending on configuration)
 - **JUnit / Mockito** for testing
-
----
-
-## 📂 Project Structure
-fsd-backend/
-├── src/main/java/com/startup/fsdbackend
-│   ├── controller/        # REST controllers
-│   ├── exception/         # Custom exceptions & advice
-│   ├── model/             # Entity classes
-│   ├── repository/        # JPA repositories
-│   └── FsdBackendApplication.java  # Main Spring Boot app
-├── src/main/resources     # application.properties, static resources
-├── src/test/java          # Unit & integration tests
-├── build.gradle           # Gradle build file
-└── settings.gradle
-
 ---
 
 ## ⚙️ Setup & Run
