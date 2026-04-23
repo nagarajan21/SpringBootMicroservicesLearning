@@ -45,7 +45,6 @@ cd fsd-backend
 The service will start at:
 http://localhost:8080
 🔗 API Endpoints (for examples)
-GET /oms → Fetch all user oms
 GET /oms/{id} → Fetch order by ID
 GET /oms/all → Fetch all orders
 POST /oms → Create a new order
